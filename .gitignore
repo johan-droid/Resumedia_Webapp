@@ -66,3 +66,7 @@ Desktop.ini
 
 # Optional: Ignore Render build artifacts if running local builds with render-build.sh inside the project
 # render-build.sh is usually tracked, but output directories should be ignored.
+
+# Duplicate project directories (to be cleaned up)
+/ResumeDia-Complete-Frontend/
+/ResumeDia-Frontend-Project/
