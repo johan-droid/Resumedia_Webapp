@@ -3,7 +3,6 @@ services:
     name: resumedia-frontend
     env: node
     plan: free
-    rootDir: ResumeDia-Complete-Frontend/resumedia-frontend
     buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:

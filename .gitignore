@@ -1,55 +1,68 @@
-# Dependencies
-node_modules/
-.pnp
+# dependencies
+/node_modules
+/.pnp
 .pnp.js
 
-# Testing
-coverage/
+# testing
+/coverage
 
-# Next.js
-.next/
-out/
-build/
+# next.js
+/.next/
+/out/
 
-# Miscellaneous
+# production
+/build
+
+# misc
 .DS_Store
 *.pem
-*.local
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# Vercel
+# vercel
 .vercel
 
-# TypeScript
+# typescript
 *.tsbuildinfo
 next-env.d.ts
 
-# Logs
-logs
+# logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
+.npm
+build_log.txt
+build_log_2.txt
 
 # Editor directories and files
-.idea/
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea
 *.suo
 *.ntvs
 *.njsproj
 *.sln
 *.sw?
 
-# OS Generated
+# Os specific
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+.DS_Store
 
-# Optional: Ignore specific local build logs
-build_log.txt
-build_log_*.txt
+# Optional: Ignore Render build artifacts if running local builds with render-build.sh inside the project
+# render-build.sh is usually tracked, but output directories should be ignored.
