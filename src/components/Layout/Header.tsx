@@ -103,7 +103,7 @@ export default function Header() {
                   >
                     <Link
                       href={link.href}
-                      className="flex items-center justify-between px-4 py-3 rounded-xl text-base font-medium text-surface-200 hover:bg-white/10 hover:text-primary-300 transition-all border border-transparent hover:border-white/5"
+                      className="flex items-center justify-between px-4 py-3 rounded-xl text-base font-medium text-surface-700 hover:bg-white/10 hover:text-primary-300 transition-all border border-transparent hover:border-white/5"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {link.label}
@@ -118,7 +118,7 @@ export default function Header() {
                   transition={{ delay: 0.4 }}
                   className="pt-4 mt-4 border-t border-white/10"
                 >
-                  <button className="flex w-full items-center justify-center gap-2 px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-surface-200 hover:bg-white/10 transition-colors">
+                  <button className="flex w-full items-center justify-center gap-2 px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white hover:bg-white/10 transition-colors">
                     <LogOut className="w-4 h-4" />
                     Sign Out
                   </button>
