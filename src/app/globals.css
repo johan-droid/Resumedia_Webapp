@@ -181,6 +181,18 @@
   }
 
   /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-surface-50;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-white/10 rounded-full hover:bg-white/20;
+  }
+
   .scrollbar-thin::-webkit-scrollbar {
     @apply w-2 h-2;
   }
