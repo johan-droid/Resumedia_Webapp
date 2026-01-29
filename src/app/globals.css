@@ -254,19 +254,19 @@
     border-width: 0;
   }
 
-  @screen sm {
+  @media (min-width: 640px) {
     .sm-hidden {
       display: none;
     }
   }
 
-  @screen md {
+  @media (min-width: 768px) {
     .md-hidden {
       display: none;
     }
   }
 
-  @screen lg {
+  @media (min-width: 1024px) {
     .lg-hidden {
       display: none;
     }
